@@ -342,10 +342,10 @@ aside {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /**TABLET STYLES HERE**/
+/**TABLET STYLES HERE**/
 
-  /** General styles **/
-  .content-wrapper {
+/** General styles **/
+.content-wrapper {
   max-width: 640px;
   margin: 100px 0;
 }
@@ -378,7 +378,8 @@ header nav ul {
 /* Aside */
 aside .content-wrapper {
   margin: 50px 0;
-  display: flex;    justify-content: space-between;
+  display: flex;    
+  justify-content: space-between;
   align-content: flex-start;
 }
 
@@ -457,7 +458,7 @@ footer .copyright {
 }
 
 /* ==========================================================================
-   About Page
+   FAQ Page
    ========================================================================== */
 
 .faq .content-wrapper {
@@ -471,9 +472,70 @@ footer .copyright {
 .faq h2 {
   width: 100%;
 }
-
+}
 @media only screen and (min-width: 1200px) {
-  /**DESKTOP STYLES HERE**/
+/**DESKTOP STYLES HERE**/
+
+/** General styles **/
+  
+.content-wrapper {
+  max-width: 960px;
+}
+
+/* Header */
+
+header {
+  padding: 15px 0;
+}
+
+/* Hero Area */
+
+.hero-area h1 {
+  width: 80%;
+}
+
+/* Aside */
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {        
+  width: 30%;
+}
+
+/* Features */
+
+.features h2 {
+  width: 88%;
+}
+
+.features article {
+  flex-basis: 33%;
+}
+
+/* Reviews */
+
+.reviews article div {
+  width: 42%;
+}
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+.mission h2 .contact-setion .content-wrapper h2 {
+  width: 95%;
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+.faq h2 {
+  width: 100%;
+}
+
 }
 
 @media print,
